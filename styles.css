@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+  /* Contenedor principal */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #3338;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+  /* Título */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+  /* Sección de búsqueda */
+.busqueda {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 22px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #48e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #26c;
+}
+
+  /* Resultados */
+.resultado {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.resultado img {
+    width: 80px;
+    height: 80px;
+}
